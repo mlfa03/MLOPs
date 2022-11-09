@@ -1,6 +1,6 @@
 ## Logistic Regression
 
-
+### Main Concepts
 
 * Classification algorithm that assigns observations to discrete set of classes.  
 
@@ -26,4 +26,6 @@
 
 * Theta values are updated to minimize the cost function. 
 
-![image](https://user-images.githubusercontent.com/39881974/200902301-d9499aa2-2ed5-4a31-8136-5bac56d759f4.png)
+![image](https://user-images.githubusercontent.com/39881974/200902301-d9499aa2-2ed5-4a31-8136-5bac56d759f4.png=250x250)
+
+### Recommended use
