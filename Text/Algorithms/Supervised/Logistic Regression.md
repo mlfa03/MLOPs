@@ -11,6 +11,7 @@
 #### How does it work?
 
 * Sigmoid function to predict output.
+
 ![image](https://user-images.githubusercontent.com/39881974/200902384-7952c15d-74e7-44d6-bffb-4a39a04f8784.png)
 
 
