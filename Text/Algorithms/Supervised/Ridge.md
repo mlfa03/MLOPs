@@ -7,4 +7,4 @@ Ridge Regression is an adaptation of the widely used linear regression algorithm
 ### How does it work? 
 
 * Cost Function 
-![image](https://user-images.githubusercontent.com/39881974/200904341-9c48a544-f7df-4ccb-be7e-923d936cd02a.png=250x250)
+![image](https://user-images.githubusercontent.com/39881974/200904341-9c48a544-f7df-4ccb-be7e-923d936cd02a.png)
