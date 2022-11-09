@@ -1,5 +1,7 @@
 ## Random Forest
 
+### Main concepts 
+
 * Ensemble of decision trees.
 * A percentage of the original dataset is randomly selected with replacement. 
 * When splitting nodes, random subsets of features are considered.
@@ -9,3 +11,8 @@
 
 ![image](https://user-images.githubusercontent.com/39881974/200903525-2bf559c5-8231-4301-a152-c29138c94c2e.png)
 
+
+### How does it work?
+
+
+### Recommended use
