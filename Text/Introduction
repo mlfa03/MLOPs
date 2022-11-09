@@ -1,0 +1,5 @@
+# Introduction 
+
+The aim of this is to summarize information that is fundamental for someone working with MLOPs. We will start from the fundamentals of Machine Learning 
+algorithms, passing by deployment methods and monitoring. Specific chapters dedicated to the infrastructure necessary for putting models available to
+the user and scaling them will also be addressed, such as Docker, Kubernetes etc. 
