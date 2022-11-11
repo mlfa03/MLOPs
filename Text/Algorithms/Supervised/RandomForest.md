@@ -13,6 +13,10 @@
 
 
 ### How does it work?
-
+* The training dataset is randomly split into multiple samples based on the number of trees in the forest. The number of trees is set via a hyperparameter.
+* The decision trees are trained in parallel using one of the data subsets.
+* The output of all trees is evaluated and the most commonly occurring prediction is taken as the final result.
 
 ### Recommended use
+* This algorithm can be used to solve both classification and regression-based problems.
+* It is particularly well suited to large datasets with high dimensionality as the algorithm inherently performs feature selection.
