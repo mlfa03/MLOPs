@@ -2,10 +2,9 @@
 
 ### Main Concepts
 
-* Classification algorithm that assigns observations to discrete set of classes.  
-
-* Predictions fall into a range starting from 0 to 1.
-
+* Logistic regression is essentially linear regression moulded to fit a classification problem. 
+* Instead of fitting a straight line, logistic regression applies the logistic function to squeeze the output of a linear equation between 0 and 1. 
+* The result is an S-shaped curve rather than a straight line through the data points
 * Does not require a linear relationship between predictions and predictors
 
 #### How does it work?
@@ -29,3 +28,7 @@
 ![image](https://user-images.githubusercontent.com/39881974/200902301-d9499aa2-2ed5-4a31-8136-5bac56d759f4.png)
 
 ### Recommended use
+* This algorithm can only be used to solve classification problems.
+* There must be a linear relationship between features and the target variable.
+* The number of observations must be larger than the number of features.
+* Best suited to classification problems where the relationships in the data are both linear and simple.
