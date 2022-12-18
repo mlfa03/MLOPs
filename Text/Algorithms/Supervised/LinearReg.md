@@ -1,5 +1,13 @@
 ## Linear Regression
 
+### Glossary 
+ * **p-value**: probability of finding a particular result, or a greater result, given a null hypothesis being true. 
+ * **confidence interval**: The possible range of an unknown value. Often comes with some degree probability (ex. 95% confidence interval)
+ * **R squared**: The percent of variance in the dependent variable explained by the independent variable. 
+ * **Variance inflation factor**: a measure of collinearity in a regression model. Equals 1 --> no collinearity. , Between one e 0.5 --> some collinearity, lower than 0.5 --> severe collinearity
+ * **Feature interaction**: features that are multiplied by one another in order to express relationships that can't be represented by adding the independent variable terms together. 
+
+
 ### Main concepts 
 * Algorithm that is used to predict a continuous target variable. 
 
