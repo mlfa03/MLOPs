@@ -6,12 +6,14 @@
 
 
 ### Main concepts 
-* Naïve Bayes Classifier is one of the simple and most effective Classification algorithms which helps in building the fast machine learning models that can make quick predictions. It is a probabilistic classifier, which means it predicts on the basis of the probability of an object.
+* Naïve Bayes Classifier is one of the simple and most effective Classification algorithms which helps in building the fast machine learning models that can make quick predictions. 
+* It is a probabilistic classifier, which means it predicts on the basis of the probability of an object.
+* The Naive Bayes classifier calculates the class probabilities for each feature independently, which is equivalent to a strong (= naive) assumption of conditional independence of the features.
 
 **Types**
-* Gaussian Naive Bayes classifier: used when features are not discreet. 
-* Multinomial Naive Bayes Classifier: used when features follow a multinomial distribution. 
-* Bernoulli Naive Bayes classifier: used when features are of the boolean type.
+* **Gaussian Naive Bayes classifier**: used when features are not discreet. 
+* **Multinomial Naive Bayes Classifier**: used when features follow a multinomial distribution. 
+* **Bernoulli Naive Bayes classifier**: used when features are of the boolean type.
 
 ### How does it work?
 
@@ -23,10 +25,10 @@ Bayes’ Theorem is stated as:
 
 Where
 
-**P(h|d)** is the probability of hypothesis h given the data d. This is called the posterior probability.
-**P(d|h)** is the probability of data d given that the hypothesis h was true.
-**P(h)** is the probability of hypothesis h being true (regardless of the data). This is called the prior probability of h.
-**P(d)** is the probability of the data (regardless of the hypothesis).
+* **P(h|d)** is the probability of hypothesis h given the data d. This is called the posterior probability.
+* **P(d|h)** is the probability of data d given that the hypothesis h was true.
+* **P(h)** is the probability of hypothesis h being true (regardless of the data). This is called the prior probability of h.
+* **P(d)** is the probability of the data (regardless of the hypothesis).
 
 ### Recommendations 
 * **Categorical Inputs**: Naive Bayes assumes label attributes such as binary, categorical or nominal.
