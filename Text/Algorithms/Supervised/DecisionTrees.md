@@ -1,5 +1,7 @@
 # Decision Trees
 
+**[back to index](https://github.com/mlfa03/MLOPs/blob/main/README.md)**
+
 * Linear regression and logistic regression models fail in situations where the relationship between features and outcome is nonlinear or where features interact with each other. 
 * Tree based models split the data multiple times according to certain cutoff values in the features. Through splitting, different subsets of the dataset are created, with each instance belonging to one subset. 
 * The final subsets are called terminal or leaf nodes and the intermediate subsets are called internal nodes or split nodes. 
