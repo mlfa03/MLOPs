@@ -6,4 +6,4 @@ The summaries are updated constantly.
 
 ## Machine Learning 
 
-(Feature processing)[https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/FeatureProcess.md]
+[Feature processing](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/FeatureProcess.md)
