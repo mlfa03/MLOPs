@@ -1,5 +1,7 @@
 ## Hypothesis and Probability 
 
+**[back to index](https://github.com/mlfa03/MLOPs/blob/main/README.md)**
+
 ### Hypothesis Testing
 ![image](https://user-images.githubusercontent.com/39881974/208299298-5cc30585-aa73-4045-bd81-dc9e83855b09.png)
 
