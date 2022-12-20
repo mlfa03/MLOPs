@@ -14,16 +14,51 @@ The summaries are updated constantly.
 1. [Linear Regression](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Supervised/LinearReg.md)
 2. [Lasso Regression](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Supervised/Lasso.md)
 3. [Ridge Regression](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Supervised/Ridge.md)
-4. [Naive Bayes](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Supervised/Naive%20Bayes.md)
-5. [Logistic Regression](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Supervised/Logistic%20Regression.md) 
-6. [Decision Trees](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Supervised/DecisionTrees.md) 
-7. [Perceptron](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Supervised/Perceptron_MLP.md)
-8. [Neural Networks]()
+4. [OLS - Ordinary Least Squares](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Supervised/OLS.md)
+5. [Naive Bayes](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Supervised/Naive%20Bayes.md)
+6. [SGD - Stochastic Gradient Descent](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Supervised/SGD.md)
+7. [SVM - Support Vector Machines](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Supervised/SVM.md)
+8. [Logistic Regression](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Supervised/Logistic%20Regression.md) 
+9. [Decision Trees](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Supervised/DecisionTrees.md) 
+10. [Perceptron](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Supervised/Perceptron_MLP.md)
+11. [Neural Networks]()
 
 **Unsupervised Models**
-
+1. [KNN - K-Nearest Neighbours](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Unsupervised/KNN.md)
+2. [PCA - Principal Component Analysis](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Unsupervised/PCA.md)
 
 **Reinforcement Learning**
-
+1. [Markov Decision Process](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Reinforcement/Markov.md)
+2. [Q-learning](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Reinforcement/Qlearning.md)
+3. [Temporal Difference](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Reinforcement/TemporalDiff.md)
 
 **Causal Modelling**
+1. [Introduction](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/CausalModelling/Intro.md)
+2. [Experimental Design and Statistical Controls](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/CausalModelling/StatControls.md)
+3. [Correlation](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/CausalModelling/Correlation.md)
+4. [Hypothesis and Probability](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/CausalModelling/HypothesisandProbability.md)
+5. [Prediction and Proof](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/CausalModelling/PredictionProof.md)
+6. [Induction and Deduction](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/CausalModelling/InductionDeduction.md)
+
+## Deployment
+
+1. [APIs](https://github.com/mlfa03/MLOPs/blob/main/Text/Deployment/API.md)
+2. [Docker](https://github.com/mlfa03/MLOPs/blob/main/Text/Deployment/Docker.md)
+3. [Kubernetes](https://github.com/mlfa03/MLOPs/blob/main/Text/Deployment/Kubernetes.md)
+4. [Airflow](https://github.com/mlfa03/MLOPs/blob/main/Text/Deployment/Airflow.md)
+
+## MLOPs Frameworks 
+1. [FasrAPI](https://github.com/mlfa03/MLOPs/blob/main/Text/MLOPsFrameworks/FastAPI.md)
+2. [MLFlow](https://github.com/mlfa03/MLOPs/blob/main/Text/MLOPsFrameworks/MLFlow.md)
+3. [KubeFlow](https://github.com/mlfa03/MLOPs/blob/main/Text/MLOPsFrameworks/Kubeflow)
+4. [MetaFlow](https://github.com/mlfa03/MLOPs/blob/main/Text/MLOPsFrameworks/Metaflow.md)
+5. [ZenML](https://github.com/mlfa03/MLOPs/blob/main/Text/MLOPsFrameworks/ZenML.md)
+6. [Kedro](https://github.com/mlfa03/MLOPs/blob/main/Text/MLOPsFrameworks/Kedro.md)
+
+## DevOPs (Infra)
+1. [Helm](https://github.com/mlfa03/MLOPs/blob/main/Text/Infra/Helm.md)
+2. [Terraform](https://github.com/mlfa03/MLOPs/blob/main/Text/Infra/Terraform.md)
+
+**Systems Designs**
+1. [Design Fundamentals](https://github.com/mlfa03/MLOPs/blob/main/Text/Infra/SystemsDesign/DesignFundamentals.md)
+2. [Client-Server Model](https://github.com/mlfa03/MLOPs/blob/main/Text/Infra/SystemsDesign/ClientServer.md)
