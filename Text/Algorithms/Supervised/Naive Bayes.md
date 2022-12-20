@@ -1,5 +1,7 @@
 ## Naive Bayes
 
+**[back to index](https://github.com/mlfa03/MLOPs/blob/main/README.md)**
+
 ### Glossary 
 * **Bernoulli Distribution** : A distribution which evaluates a particular outcome as binary. 
 * **Laplace Smoothing** : A type of additive smoothing which mitigates the chance of encountering zero probabilities within the Naive Bayes classifier. 
