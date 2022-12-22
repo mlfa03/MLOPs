@@ -20,11 +20,10 @@ network drivers, service discovery, container runtime, visualization, command.
 
 ### Kubernetes cluster architecture 
 
-![image](https://user-images.githubusercontent.com/39881974/208668330-71b1203b-fd72-4a69-bc57-f81e82b1139e.png)
-
 **Master node**: responsible for the overall management of the kubernetes cluster. 
 
-![image](https://user-images.githubusercontent.com/39881974/208671972-f6d0e831-da56-4d4f-a7d5-cb313e29cc70.png)
+
+![image](https://user-images.githubusercontent.com/39881974/208985129-c7f417a0-1de4-462e-9827-b4f39142e9c7.png)
 
 
 * **API server**: is the front end of the kubernetes 
@@ -33,9 +32,13 @@ network drivers, service discovery, container runtime, visualization, command.
 * **etcd**: kubernetes database. It stores all cluster data. 
 * **kubectl**: to interact with the master node. This is the command line interface with kubernetes. 
 * **kubeconfig**: kubectl has a config file called kubeconfig. This file has server information, authentication information to access the API server.
-* **worker nodes**: nodes where the application operates. They communicate back with the master node. 
+* **worker nodes**: nodes where the application operates. They communicate back with the master node. Worker nodes can be exposed to the internet through load balancers and traffic coming into the node is also handled by kube proxy which is how an end user ends up talking to Kubernetes application. 
 * **kubelet process**: communication with a worker node is handled by the kubelet process. It is an agent that communicates with the API server to see 
 if pods have been designed to the nodes. It executes the pod containers via the container engine. It mounts and runs pod volume and secrets.It is 
 aware of pods and nodes states and responds back to the master. 
 * **docker**: runs containers on the node. 
+* **pod**: is the smallest unit that can be scheduled as a deployment in kubernetes. These groups of containers share storage, linux namespace, IP addresses...Once pods have been deployed and are running the kubelet process communicates with the pods to check on state and health, and the kube proxy routes any packets to the pods from other resources that might be wanting to communicate with them. 
+
+### Nodes and Pods
+
 
