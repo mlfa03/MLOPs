@@ -18,7 +18,11 @@ file:///home/mariana.almeida/Imagens/kafka.png![image](https://user-images.githu
 
 
 AMAZON KINESIS 
-
+* AWS alternative to kafka 
+* With Amazon Kinesis, you can ingest real-time data such as video, audio, application logs, website clickstreams, and IoT telemetry data for machine learning, analytics, and other applications.
+* Data is sent from producers to shards and from them to the consumers. 
+* How to ingest data is called 'change data capture' 
+* 
 ### Data Storage 
 
 ### Data Processing 
