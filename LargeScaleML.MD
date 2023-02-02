@@ -14,7 +14,7 @@ KAFKA
 * Open source software platform which provides a way to handle real-time data streaming. 
 * If clickstream logs come at a faster pace than the broker can handle you need more brokers. 
 *
-![image](https://user-images.githubusercontent.com/39881974/216361285-27a5704e-c2be-44eb-86cc-56801fae0501.png)
+file:///home/mariana.almeida/Imagens/kafka.png![image](https://user-images.githubusercontent.com/39881974/216361735-a50acd67-c1d2-46ff-9862-237224da64dc.png)
 
 
 AMAZON KINESIS 
