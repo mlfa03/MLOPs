@@ -2,6 +2,11 @@
 
 ### AI Platform Pipelines
 
+## AI Platform tech stack 
+
+file:///home/mariana.almeida/%C3%81rea%20de%20Trabalho/aits.png![image](https://user-images.githubusercontent.com/39881974/217610944-a53006bd-6f58-40d7-9937-033116ac634d.png)
+
+
 **Current process for building MLOPs pipeline**
 * Set up a GKE (google kubernetes engine) cluster
 * Create a cloud storage bucket for storing data
