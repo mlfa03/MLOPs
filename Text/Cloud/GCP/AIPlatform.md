@@ -1,5 +1,17 @@
 ## GCP AI Platform
 
+### AI Platform Pipelines
+
+**Current process for building MLOPs pipeline**
+* Set up a GKE (google kubernetes engine) cluster
+* Create a cloud storage bucket for storing data
+* Install kubeflow pipelines
+* Set up port forwarding 
+* Create a process to share pipeline with the team 
+
+GOOGLE AI PLATFORM PIPELINES DOES ALL THOSE STEPS 
+
+
 ### Building and operationalizing the model 
 
 file:///home/mariana.almeida/%C3%81rea%20de%20Trabalho/aiplt.png![image](https://user-images.githubusercontent.com/39881974/217608037-5ef5cb48-c8a5-4d36-b71f-e81e9d79b8f9.png)
