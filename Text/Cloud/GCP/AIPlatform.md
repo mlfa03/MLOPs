@@ -4,8 +4,19 @@
 
 ## AI Platform tech stack 
 
-(https://user-images.githubusercontent.com/39881974/217610944-a53006bd-6f58-40d7-9937-033116ac634d.png)
+file:///home/mariana.almeida/%C3%81rea%20de%20Trabalho/aits.png![image](https://user-images.githubusercontent.com/39881974/217611193-46fc9e75-43d6-49b3-a9d8-a5143b5a4eb4.png)
 
+**KUBEFLOW PIPELINES X TFX PIPELINES**
+file:///home/mariana.almeida/%C3%81rea%20de%20Trabalho/KUBE.png![image](https://user-images.githubusercontent.com/39881974/217611542-028e786d-2b7c-4054-a29e-7647028f00c1.png)
+
+**What constitutes an AI Platform instance?**
+* Containerized implementations of ML tasks
+  - Containers provide portability, repeatability and encapsulation. 
+  - A task can be single noded or distributed 
+  - A containerized task canc invoke other services 
+* Specification of the sequence of the steps
+  - Specified via python SDK
+* Input parameters
 
 **Current process for building MLOPs pipeline**
 * Set up a GKE (google kubernetes engine) cluster
