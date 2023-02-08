@@ -2,6 +2,7 @@
 
 ### AI Platform Pipelines
 
+
 ## AI Platform tech stack 
 
 file:///home/mariana.almeida/%C3%81rea%20de%20Trabalho/aits.png![image](https://user-images.githubusercontent.com/39881974/217611193-46fc9e75-43d6-49b3-a9d8-a5143b5a4eb4.png)
