@@ -47,8 +47,16 @@ The summaries are updated constantly.
 3. [Kubernetes](https://github.com/mlfa03/MLOPs/blob/main/Text/Deployment/Kubernetes.md)
 4. [Airflow](https://github.com/mlfa03/MLOPs/blob/main/Text/Deployment/Airflow.md)
 
+## Cloud 
+
+### Google Cloud Platform 
+1. [GCP AI Platform](https://github.com/mlfa03/MLOPs/blob/main/Text/Cloud/GCP/AIPlatform.md)
+2. [Machine Learning Models on GCP](https://github.com/mlfa03/MLOPs/blob/main/Text/Cloud/GCP/MLModels.md)
+3. [Machine Learning Pipelines on GCP](https://github.com/mlfa03/MLOPs/blob/main/Text/Cloud/GCP/PipelinesML.md)
+4. [Kubeflow Pipelines](https://github.com/mlfa03/MLOPs/blob/main/Text/Cloud/GCP/KubeflowPipe.md)
+
 ## MLOPs Frameworks 
-1. [FasrAPI](https://github.com/mlfa03/MLOPs/blob/main/Text/MLOPsFrameworks/FastAPI.md)
+1. [FastAPI](https://github.com/mlfa03/MLOPs/blob/main/Text/MLOPsFrameworks/FastAPI.md)
 2. [MLFlow](https://github.com/mlfa03/MLOPs/blob/main/Text/MLOPsFrameworks/MLFlow.md)
 3. [KubeFlow](https://github.com/mlfa03/MLOPs/blob/main/Text/MLOPsFrameworks/Kubeflow)
 4. [MetaFlow](https://github.com/mlfa03/MLOPs/blob/main/Text/MLOPsFrameworks/Metaflow.md)
