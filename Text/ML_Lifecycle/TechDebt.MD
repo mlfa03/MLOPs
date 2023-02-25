@@ -25,10 +25,11 @@ for several slightly different test distributions. Once in place, a correction c
 ## Data Dependencies Cost More than Code Dependencies 
 
 ### Unstable data dependencies 
-
+Some input signals are unstable, meaning that they qualitatively or quantitatively change behavior over time. This can happen implicitly,
+when the input signal comes from another machine learning model itself that updates over time, or a data-dependent lookup table, such as for computing TF/IDF scores or semantic mappings. It can also happen explicitly, when the engineering ownership of the input signal is separate from the engineering ownership of the model that consumes it.
 
 ### Underutilized data dependencies 
-
+Underutilized dependencies are packages that are mostly unneeded. Similarly, underutilized data dependencies are input signals that provide little incremental modeling benefit. These can make an ML system unnecessarily vulnerable to change, sometimes catastrophically so, even though they could be removed with no detriment.
 
 ### Static analysis of data dependencies 
 
@@ -36,17 +37,18 @@ for several slightly different test distributions. Once in place, a correction c
 ## Feedback loops 
 
 ### Direct Feedback Loops 
+A model may directly influence the selection of its own future training data. It is common practice to use standard supervised algorithms, although the theoretically correct solution would be to use bandit algorithms. 
 
 ### Hidden Feedback Loops 
-
+Direct feedback loops are costly to analyze, but at least they pose a statistical challenge that ML researchers may find natural to investigate. A more difficult case is hidden feedback loops, in which two systems influence each other indirectly through the world. 
 
 ## ML Systems Anti-Patterns 
 
 ### Glue Code 
-
+ML researchers tend to develop general purpose solutions as self-contained packages. 
 
 ### Pipeline Jungles 
-
+As a special case of glue code, pipeline jungles often appear in data preparation. These can evolve organically, as new signals are identified and new information sources added incrementally. Without care, the resulting system for preparing data in an ML-friendly format may become a jungle of scrapes, joins, and sampling steps, often with intermediate files output. Managing these pipelines, detecting errors and recovering from failures are all difficult and costly.
 
 ### Dead Experimental Codepath 
 
