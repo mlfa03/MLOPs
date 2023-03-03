@@ -1,5 +1,23 @@
 ## Time Series Use Cases 
 
+Depending on the application, different time series models are recommended. 
+
+For the cases in which the underlying mechanisms are too complicated or unknown, such as:
+* Retail sales 
+* Stock market 
+
+It is bettwer to apply a simple statistical model, such as:
+* Autorregressive models (ARIMA, SARIMA ...)
+* Exponential smoothing methods (holt winters)
+* Theta method 
+
+When interpretatiblity is not a priority, machine learning methods can be implemented: 
+* QRF (quantile regression forests) 
+* RNN (Recurrent Neural Networks) 
+* GMB (gradient boosted trees)
+* SVR (supported vector regression)
+* Gaussian Process Regression 
+
 ### Uber 
 
-When the underlying mechanisms are not known or are too complicated, e.g., the stock market, or not fully known, e.g., retail sales, it is usually better to apply a simple statistical model. Popular classical methods that belong to this category include ARIMA (autoregressive integrated moving average), exponential smoothing methods, such as Holt-Winters, and the Theta method, which is less widely used, but performs very well. In fact, the Theta method won the M3 Forecasting Competition, and we also have found it to work well on Uber’s time series (moreover, it is computationally cheap). 
+To make choosing the right forecasting method easier for our teams, the Forecasting Platform team at Uber built a parallel, language-extensible backtesting framework called Omphalos to provide rapid iterations and comparisons of forecasting methodologies. 
