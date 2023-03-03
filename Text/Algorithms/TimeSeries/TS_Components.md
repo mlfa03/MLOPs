@@ -11,3 +11,4 @@ file:///home/mariana.almeida/Imagens/trend.png![image](https://user-images.githu
 
 ### Cyclical patterns 
 
+
