@@ -27,6 +27,10 @@ The summaries are updated constantly.
 1. [KNN - K-Nearest Neighbours](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Unsupervised/KNN.md)
 2. [PCA - Principal Component Analysis](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Unsupervised/PCA.md)
 
+**Time Series Forecasting**
+1. [Time Series Components](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/TimeSeries/TS_Components.md)
+2. [Use Cases for Time series](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/TimeSeries/TS_Components.md)
+
 **Reinforcement Learning**
 1. [Markov Decision Process](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Reinforcement/Markov.md)
 2. [Q-learning](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/Reinforcement/Qlearning.md)
