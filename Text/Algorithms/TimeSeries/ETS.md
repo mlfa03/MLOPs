@@ -7,10 +7,7 @@ A time series can be decomposed into:
 * General tendencies 
 * Error 
 
-
-![image](https://user-images.githubusercontent.com/39881974/223716468-92409524-96de-4a1b-a805-d8b0f74f7e1b.png)
-
-
+file:///home/mariana.almeida/Imagens/ETS_models.png![image](https://user-images.githubusercontent.com/39881974/223720848-d9b66333-60de-420d-8264-313aba242036.png)
 
 
 ### Trend plot
