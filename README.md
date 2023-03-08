@@ -32,7 +32,7 @@ The summaries are updated constantly.
 2. [ETS Models](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/TimeSeries/TS_Components.md)
   * 2.1 [ETS - Simple Exponential Smoothing Method](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/TimeSeries/SES.md)
   * 2.2 [ETS - Holt's Linear Trend Method](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/TimeSeries/HLT.md)
-  * 2.3 [ETS - Exponential Trend Method)(https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/TimeSeries/ETM.md)
+  * 2.3 [ETS - Exponential Trend Method](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/TimeSeries/ETM.md)
   * 2.4 [ETS - Holt-Winters Seasonal Method](https://github.com/mlfa03/MLOPs/blob/main/Text/Algorithms/TimeSeries/HWSM.md)
 
 **Reinforcement Learning**
